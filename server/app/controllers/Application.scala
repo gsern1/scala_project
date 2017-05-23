@@ -14,12 +14,10 @@ class Application extends Controller {
 
   def login = Action { request =>
     Ok(views.html.login(Secured.isLoggedIn(request), Secured.getUser(request)))
+  }
 
   def postLogin() = Action { request : Request[Any] =>
-    if(request.body.get("param"))
     Ok(views.html.register(Secured.isLoggedIn(request), Secured.getUser(request)))
-    else
-      BadRequest
   }
 
   def register = Action { request =>
