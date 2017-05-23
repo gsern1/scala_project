@@ -47,7 +47,7 @@ Seq[Any](format.raw/*1.35*/("""
             </div>
           </div>
           <div class="form-group">
-            <input type="submit" class="btn btn-lg btn-primary btn-block" value="Sign in">
+            <input type="submit" class="btn btn-lg btn-primary btn-block" value="Sign up">
           </div>
         </form>
         <p>Already have an account! <a href="/login"> Sign In Here </a></p>
@@ -74,9 +74,9 @@ Seq[Any](format.raw/*1.35*/("""
 object register extends register_Scope0.register
               /*
                   -- GENERATED --
-                  DATE: Tue May 23 22:30:25 CEST 2017
+                  DATE: Tue May 23 22:59:40 CEST 2017
                   SOURCE: C:/Users/antoi/Documents/scala_project/server/app/views/register.scala.html
-                  HASH: 71fd4628d5e8c2b9464394f5f168e35ba7a8d9be
+                  HASH: 2c172de98d933119fdcf19fd58e539b61360707e
                   MATRIX: 539->1|667->34|697->39|739->73|778->75|809->80|1985->1226
                   LINES: 20->1|25->1|27->3|27->3|27->3|28->4|56->32
                   -- GENERATED --
