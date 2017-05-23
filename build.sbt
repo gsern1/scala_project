@@ -1,13 +1,39 @@
-name := "scala_project"
+import sbt._
 
-version := "1.0"
+// Original source : https://github.com/vmunier/play-with-scalajs-example
+val scalaV = "2.11.8"
 
-lazy val `scala_project` = (project in file(".")).enablePlugins(PlayScala)
+lazy val server = (project in file("server")).settings(
+  scalaVersion := scalaV,
+  scalaJSProjects := Seq(client),
+  pipelineStages in Assets := Seq(scalaJSPipeline),
+  pipelineStages := Seq(digest, gzip),
+  compile in Compile := ((compile in Compile) dependsOn scalaJSPipeline).value,
+  libraryDependencies ++= Seq(
+    "com.vmunier" %% "scalajs-scripts" % "latest.release",
+    specs2 % Test,
+    "org.webjars" % "bootstrap" % "3.3.5",
+    "org.webjars" % "font-awesome" % "4.3.0-2"
+  ),
+  EclipseKeys.preTasks := Seq(compile in Compile)
+).enablePlugins(PlayScala).
+  dependsOn(sharedJvm)
 
-scalaVersion := "2.11.7"
+lazy val client = (project in file("client")).settings(
+  scalaVersion := scalaV,
+  scalaJSUseMainModuleInitializer := true,
+  libraryDependencies ++= Seq(
+    "org.scala-js" %%% "scalajs-dom" % "latest.release"
+  )
+).enablePlugins(ScalaJSPlugin, ScalaJSWeb).
+  dependsOn(sharedJs)
 
-libraryDependencies ++= Seq( jdbc , cache , ws   , specs2 % Test )
+lazy val shared = (crossProject.crossType(CrossType.Pure) in file("shared")).
+  settings(scalaVersion := scalaV).
+  jsConfigure(_ enablePlugins ScalaJSWeb)
 
-unmanagedResourceDirectories in Test <+=  baseDirectory ( _ /"target/web/public/test" )  
+lazy val sharedJvm = shared.jvm
+lazy val sharedJs = shared.js
 
-resolvers += "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases"  
+// loads the server project at sbt startup
+onLoad in Global := (Command.process("project server", _: State)) compose (onLoad in Global).value

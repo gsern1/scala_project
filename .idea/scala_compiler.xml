@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="incrementalityType" value="SBT" />
+    <profile name="SBT 1" modules="scala_project,sharedJVM" />
+    <profile name="SBT 2" modules="client">
+      <parameters>
+        <parameter value="-P:scalajs:mapSourceURI:file:/C:/Users/antoi/Documents/scala_project/client/src/main/scala/-&gt;b003fa6cca7af912e452/" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\antoi\.ivy2\cache\org.scala-js\scalajs-compiler_2.11.8\jars\scalajs-compiler_2.11.8-0.6.15.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 3" modules="server">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+      </parameters>
+    </profile>
+    <profile name="SBT 4" modules="sharedJS">
+      <parameters>
+        <parameter value="-P:scalajs:mapSourceURI:file:/C:/Users/antoi/Documents/scala_project/shared/src/main/scala/-&gt;c6250b969d2825179650/" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\antoi\.ivy2\cache\org.scala-js\scalajs-compiler_2.11.8\jars\scalajs-compiler_2.11.8-0.6.15.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>
