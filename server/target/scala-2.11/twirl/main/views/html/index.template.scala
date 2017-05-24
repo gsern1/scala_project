@@ -51,10 +51,10 @@ Seq[Any](format.raw/*1.52*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Tue May 23 22:06:57 CEST 2017
-                  SOURCE: C:/Users/antoi/Documents/scala_project/server/app/views/index.scala.html
-                  HASH: 7db497dd99762b1971a6670c34d4f120e3b84032
-                  MATRIX: 540->1|685->51|713->54|752->85|791->87|818->88|906->150|933->157|1043->238
+                  DATE: Thu May 25 00:35:54 CEST 2017
+                  SOURCE: D:/Cours HEIG 2016-2017 S2/Scala/scala_project/server/app/views/index.scala.html
+                  HASH: 22c57d6d87f67b3fc60fbe51c93bf99078050a34
+                  MATRIX: 540->1|685->51|715->56|754->87|793->89|821->91|911->155|938->162|1051->246
                   LINES: 20->1|25->1|27->3|27->3|27->3|28->4|30->6|30->6|33->9
                   -- GENERATED --
               */

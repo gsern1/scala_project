@@ -1,4 +1,4 @@
-[info] Updating {file:/C:/Users/antoi/Documents/scala_project/}sharedJS...
+[info] Updating {file:/D:/Cours%20HEIG%202016-2017%20S2/Scala/scala_project/}sharedJS...
 [debug] :: resolving dependencies :: shared#shared_sjs0.6_2.11;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty]
 [debug] 	validate = true
@@ -21,21 +21,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.scala-js#scalajs-library_2.11;0.6.15 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-js#scalajs-library_2.11;0.6.15 {compile=[default(compile)]}
-[info] Resolving org.scala-js#scalajs-library_2.11;0.6.15 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-js#scalajs-library_2.11;0.6.15 {compile=[default(compile)]}
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.scala-js\scalajs-library_2.11\0.6.15\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.scala-js#scalajs-library_2.11;0.6.15
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.15/scalajs-library_2.11-0.6.15.pom
-[debug] 	public: found md file for org.scala-js#scalajs-library_2.11;0.6.15
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.15/scalajs-library_2.11-0.6.15.pom (0.6.15)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.15/scalajs-library_2.11-0.6.15.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.15/scalajs-library_2.11-0.6.15.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.15/scalajs-library_2.11-0.6.15.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.15/scalajs-library_2.11-0.6.15.pom
-[debug] 	[SUCCESSFUL ] org.scala-js#scalajs-library_2.11;0.6.15!scalajs-library_2.11.pom(pom.original) (115ms)
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.scala-js\scalajs-library_2.11\0.6.15\jars\scalajs-library_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.15/scalajs-library_2.11-0.6.15.jar
-[debug] 	found org.scala-js#scalajs-library_2.11;0.6.15 in public
+[debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-library_2.11;0.6.15
+[debug] 	found org.scala-js#scalajs-library_2.11;0.6.15 in sbt-chain
 [debug] 	[0.6.15] org.scala-js#scalajs-library_2.11;0.6.15
 [debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.15 [compile->runtime]
 [debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.15 [compile->compile]
@@ -160,21 +147,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.scala-js#scalajs-test-interface_2.11;0.6.15 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-js#scalajs-test-interface_2.11;0.6.15 {test=[default(compile)]}
-[info] Resolving org.scala-js#scalajs-test-interface_2.11;0.6.15 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-js#scalajs-test-interface_2.11;0.6.15 {test=[default(compile)]}
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.scala-js\scalajs-test-interface_2.11\0.6.15\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.scala-js#scalajs-test-interface_2.11;0.6.15
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.11/0.6.15/scalajs-test-interface_2.11-0.6.15.pom
-[debug] 	public: found md file for org.scala-js#scalajs-test-interface_2.11;0.6.15
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.11/0.6.15/scalajs-test-interface_2.11-0.6.15.pom (0.6.15)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.11/0.6.15/scalajs-test-interface_2.11-0.6.15.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.11/0.6.15/scalajs-test-interface_2.11-0.6.15.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.11/0.6.15/scalajs-test-interface_2.11-0.6.15.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.11/0.6.15/scalajs-test-interface_2.11-0.6.15.pom
-[debug] 	[SUCCESSFUL ] org.scala-js#scalajs-test-interface_2.11;0.6.15!scalajs-test-interface_2.11.pom(pom.original) (110ms)
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.scala-js\scalajs-test-interface_2.11\0.6.15\jars\scalajs-test-interface_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.11/0.6.15/scalajs-test-interface_2.11-0.6.15.jar
-[debug] 	found org.scala-js#scalajs-test-interface_2.11;0.6.15 in public
+[debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-test-interface_2.11;0.6.15
+[debug] 	found org.scala-js#scalajs-test-interface_2.11;0.6.15 in sbt-chain
 [debug] 	[0.6.15] org.scala-js#scalajs-test-interface_2.11;0.6.15
 [debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.15 [test->runtime]
 [debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.15 [test->compile]
@@ -415,21 +389,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.scala-js#scalajs-compiler_2.11.8;0.6.15 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-js#scalajs-compiler_2.11.8;0.6.15 {plugin=[default(compile)]}
-[info] Resolving org.scala-js#scalajs-compiler_2.11.8;0.6.15 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-js#scalajs-compiler_2.11.8;0.6.15 {plugin=[default(compile)]}
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.scala-js\scalajs-compiler_2.11.8\0.6.15\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.scala-js#scalajs-compiler_2.11.8;0.6.15
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.8/0.6.15/scalajs-compiler_2.11.8-0.6.15.pom
-[debug] 	public: found md file for org.scala-js#scalajs-compiler_2.11.8;0.6.15
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.8/0.6.15/scalajs-compiler_2.11.8-0.6.15.pom (0.6.15)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.8/0.6.15/scalajs-compiler_2.11.8-0.6.15.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.8/0.6.15/scalajs-compiler_2.11.8-0.6.15.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.8/0.6.15/scalajs-compiler_2.11.8-0.6.15.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.8/0.6.15/scalajs-compiler_2.11.8-0.6.15.pom
-[debug] 	[SUCCESSFUL ] org.scala-js#scalajs-compiler_2.11.8;0.6.15!scalajs-compiler_2.11.8.pom(pom.original) (113ms)
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.scala-js\scalajs-compiler_2.11.8\0.6.15\jars\scalajs-compiler_2.11.8.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.8/0.6.15/scalajs-compiler_2.11.8-0.6.15.jar
-[debug] 	found org.scala-js#scalajs-compiler_2.11.8;0.6.15 in public
+[debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-compiler_2.11.8;0.6.15
+[debug] 	found org.scala-js#scalajs-compiler_2.11.8;0.6.15 in sbt-chain
 [debug] 	[0.6.15] org.scala-js#scalajs-compiler_2.11.8;0.6.15
 [debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-compiler_2.11.8;0.6.15 [plugin->runtime]
 [debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-compiler_2.11.8;0.6.15 [plugin->compile]
@@ -837,55 +798,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 ...
 [debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}
-[info] Resolving org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.eclipse.jetty\jetty-websocket\8.1.16.v20140903\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-websocket;8.1.16.v20140903
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.pom
-[debug] 	public: found md file for org.eclipse.jetty#jetty-websocket;8.1.16.v20140903
-[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.pom (8.1.16.v20140903)
-[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.pom
-[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-websocket;8.1.16.v20140903!jetty-websocket.pom(pom.original) (115ms)
-[info] Resolving org.eclipse.jetty#jetty-project;8.1.16.v20140903 ...
-[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.16.v20140903 {}
-[info] Resolving org.eclipse.jetty#jetty-project;8.1.16.v20140903 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.16.v20140903 {}
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.eclipse.jetty\jetty-project\8.1.16.v20140903\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-project;8.1.16.v20140903
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.pom
-[debug] 	public: found md file for org.eclipse.jetty#jetty-project;8.1.16.v20140903
-[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.pom (8.1.16.v20140903)
-[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.pom
-[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-project;8.1.16.v20140903!jetty-project.pom(pom.original) (152ms)
-[info] Resolving org.eclipse.jetty#jetty-parent;20 ...
-[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-parent;20 {}
-[info] Resolving org.eclipse.jetty#jetty-parent;20 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-parent;20 {}
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.eclipse.jetty\jetty-parent\20\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-parent;20
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/20/jetty-parent-20.pom
-[debug] 	public: found md file for org.eclipse.jetty#jetty-parent;20
-[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/20/jetty-parent-20.pom (20)
-[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/20/jetty-parent-20.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/20/jetty-parent-20.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/20/jetty-parent-20.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/20/jetty-parent-20.pom
-[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-parent;20!jetty-parent.pom(pom.original) (122ms)
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.eclipse.jetty\jetty-parent\20\jars\jetty-parent.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/20/jetty-parent-20.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/20/jetty-parent-20.jar
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.eclipse.jetty\jetty-project\8.1.16.v20140903\jars\jetty-project.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.jar
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.eclipse.jetty\jetty-websocket\8.1.16.v20140903\jars\jetty-websocket.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.jar
-[debug] 	found org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 in public
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-websocket;8.1.16.v20140903
+[debug] 	found org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 in sbt-chain
 [debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->runtime]
 [debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->compile]
 [debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->master(compile)]
@@ -893,24 +807,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.eclipse.jetty#jetty-util;8.1.16.v20140903 ...
 [debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-util;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.eclipse.jetty#jetty-util;8.1.16.v20140903 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-util;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.eclipse.jetty\jetty-util\8.1.16.v20140903\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-util;8.1.16.v20140903
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.pom
-[debug] 	public: found md file for org.eclipse.jetty#jetty-util;8.1.16.v20140903
-[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.pom (8.1.16.v20140903)
-[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.pom
-[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-util;8.1.16.v20140903!jetty-util.pom(pom.original) (111ms)
-[info] Resolving org.eclipse.jetty#jetty-project;8.1.16.v20140903 ...
-[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.16.v20140903 {}
-[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-project;8.1.16.v20140903
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.eclipse.jetty\jetty-util\8.1.16.v20140903\jars\jetty-util.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.jar
-[debug] 	found org.eclipse.jetty#jetty-util;8.1.16.v20140903 in public
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;8.1.16.v20140903
+[debug] 	found org.eclipse.jetty#jetty-util;8.1.16.v20140903 in sbt-chain
 [debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->compile(*)]
 [debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->runtime(*)]
 [debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->compile]
@@ -919,24 +817,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.eclipse.jetty#jetty-io;8.1.16.v20140903 ...
 [debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-io;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.eclipse.jetty#jetty-io;8.1.16.v20140903 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-io;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.eclipse.jetty\jetty-io\8.1.16.v20140903\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-io;8.1.16.v20140903
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.pom
-[debug] 	public: found md file for org.eclipse.jetty#jetty-io;8.1.16.v20140903
-[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.pom (8.1.16.v20140903)
-[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.pom
-[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-io;8.1.16.v20140903!jetty-io.pom(pom.original) (111ms)
-[info] Resolving org.eclipse.jetty#jetty-project;8.1.16.v20140903 ...
-[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.16.v20140903 {}
-[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-project;8.1.16.v20140903
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.eclipse.jetty\jetty-io\8.1.16.v20140903\jars\jetty-io.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.jar
-[debug] 	found org.eclipse.jetty#jetty-io;8.1.16.v20140903 in public
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;8.1.16.v20140903
+[debug] 	found org.eclipse.jetty#jetty-io;8.1.16.v20140903 in sbt-chain
 [debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->compile(*)]
 [debug] == resolving dependencies org.eclipse.jetty#jetty-io;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->master(compile)]
 [debug] == resolving dependencies org.eclipse.jetty#jetty-io;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->compile(*)]
@@ -949,24 +831,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.eclipse.jetty#jetty-http;8.1.16.v20140903 ...
 [debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-http;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.eclipse.jetty#jetty-http;8.1.16.v20140903 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-http;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.eclipse.jetty\jetty-http\8.1.16.v20140903\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-http;8.1.16.v20140903
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.pom
-[debug] 	public: found md file for org.eclipse.jetty#jetty-http;8.1.16.v20140903
-[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.pom (8.1.16.v20140903)
-[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.pom
-[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.pom(pom.original) (115ms)
-[info] Resolving org.eclipse.jetty#jetty-project;8.1.16.v20140903 ...
-[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.16.v20140903 {}
-[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-project;8.1.16.v20140903
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.eclipse.jetty\jetty-http\8.1.16.v20140903\jars\jetty-http.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.jar
-[debug] 	found org.eclipse.jetty#jetty-http;8.1.16.v20140903 in public
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-http;8.1.16.v20140903
+[debug] 	found org.eclipse.jetty#jetty-http;8.1.16.v20140903 in sbt-chain
 [debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->compile(*)]
 [debug] == resolving dependencies org.eclipse.jetty#jetty-http;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->master(compile)]
 [debug] == resolving dependencies org.eclipse.jetty#jetty-http;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->compile(*)]
@@ -986,24 +852,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.eclipse.jetty#jetty-server;8.1.16.v20140903 ...
 [debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-server;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}
-[info] Resolving org.eclipse.jetty#jetty-server;8.1.16.v20140903 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-server;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.eclipse.jetty\jetty-server\8.1.16.v20140903\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-server;8.1.16.v20140903
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.pom
-[debug] 	public: found md file for org.eclipse.jetty#jetty-server;8.1.16.v20140903
-[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.pom (8.1.16.v20140903)
-[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.pom
-[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-server;8.1.16.v20140903!jetty-server.pom(pom.original) (114ms)
-[info] Resolving org.eclipse.jetty#jetty-project;8.1.16.v20140903 ...
-[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.16.v20140903 {}
-[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-project;8.1.16.v20140903
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.eclipse.jetty\jetty-server\8.1.16.v20140903\jars\jetty-server.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.jar
-[debug] 	found org.eclipse.jetty#jetty-server;8.1.16.v20140903 in public
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-server;8.1.16.v20140903
+[debug] 	found org.eclipse.jetty#jetty-server;8.1.16.v20140903 in sbt-chain
 [debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->runtime]
 [debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->compile]
 [debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->master(compile)]
@@ -1011,55 +861,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 ...
 [debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.eclipse.jetty.orbit\javax.servlet\3.0.0.v201112011016\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom
-[debug] 	public: found md file for org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016
-[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom (3.0.0.v201112011016)
-[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom
-[debug] 	[SUCCESSFUL ] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.pom(pom.original) (110ms)
-[info] Resolving org.eclipse.jetty.orbit#jetty-orbit;1 ...
-[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty.orbit#jetty-orbit;1 {}
-[info] Resolving org.eclipse.jetty.orbit#jetty-orbit;1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty.orbit#jetty-orbit;1 {}
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.eclipse.jetty.orbit\jetty-orbit\1\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.eclipse.jetty.orbit#jetty-orbit;1
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom
-[debug] 	public: found md file for org.eclipse.jetty.orbit#jetty-orbit;1
-[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom (1)
-[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom
-[debug] 	[SUCCESSFUL ] org.eclipse.jetty.orbit#jetty-orbit;1!jetty-orbit.pom(pom.original) (119ms)
-[info] Resolving org.eclipse.jetty#jetty-parent;18 ...
-[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-parent;18 {}
-[info] Resolving org.eclipse.jetty#jetty-parent;18 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-parent;18 {}
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.eclipse.jetty\jetty-parent\18\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-parent;18
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.pom
-[debug] 	public: found md file for org.eclipse.jetty#jetty-parent;18
-[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.pom (18)
-[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.pom
-[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-parent;18!jetty-parent.pom(pom.original) (120ms)
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.eclipse.jetty\jetty-parent\18\jars\jetty-parent.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.jar
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.eclipse.jetty.orbit\jetty-orbit\1\jars\jetty-orbit.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.jar
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.eclipse.jetty.orbit\javax.servlet\3.0.0.v201112011016\orbits\javax.servlet.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar
-[debug] 	found org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 in public
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016
+[debug] 	found org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 in sbt-chain
 [debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->compile(*)]
 [debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->runtime(*)]
 [debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->compile]
@@ -1068,24 +871,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 ...
 [debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.eclipse.jetty\jetty-continuation\8.1.16.v20140903\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-continuation;8.1.16.v20140903
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.pom
-[debug] 	public: found md file for org.eclipse.jetty#jetty-continuation;8.1.16.v20140903
-[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.pom (8.1.16.v20140903)
-[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.pom
-[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.pom(pom.original) (121ms)
-[info] Resolving org.eclipse.jetty#jetty-project;8.1.16.v20140903 ...
-[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.16.v20140903 {}
-[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-project;8.1.16.v20140903
-[debug] 		tried C:\Users\antoi\.ivy2\local\org.eclipse.jetty\jetty-continuation\8.1.16.v20140903\jars\jetty-continuation.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.jar
-[debug] 	found org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 in public
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-continuation;8.1.16.v20140903
+[debug] 	found org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 in sbt-chain
 [debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [compile->compile(*)]
 [debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [compile->runtime(*)]
 [debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [compile->compile]
@@ -1102,85 +889,35 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.15/scalajs-library_2.11-0.6.15.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.15/scalajs-library_2.11-0.6.15.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.15/scalajs-library_2.11-0.6.15.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.15/scalajs-library_2.11-0.6.15.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.15/scalajs-library_2.11-0.6.15.jar
-[info] 	[SUCCESSFUL ] org.scala-js#scalajs-library_2.11;0.6.15!scalajs-library_2.11.jar (1944ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.11/0.6.15/scalajs-test-interface_2.11-0.6.15.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.11/0.6.15/scalajs-test-interface_2.11-0.6.15.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.11/0.6.15/scalajs-test-interface_2.11-0.6.15.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.11/0.6.15/scalajs-test-interface_2.11-0.6.15.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.11/0.6.15/scalajs-test-interface_2.11-0.6.15.jar
-[info] 	[SUCCESSFUL ] org.scala-js#scalajs-test-interface_2.11;0.6.15!scalajs-test-interface_2.11.jar (195ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.8/0.6.15/scalajs-compiler_2.11.8-0.6.15.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.8/0.6.15/scalajs-compiler_2.11.8-0.6.15.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.8/0.6.15/scalajs-compiler_2.11.8-0.6.15.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.8/0.6.15/scalajs-compiler_2.11.8-0.6.15.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.8/0.6.15/scalajs-compiler_2.11.8-0.6.15.jar
-[info] 	[SUCCESSFUL ] org.scala-js#scalajs-compiler_2.11.8;0.6.15!scalajs-compiler_2.11.8.jar (592ms)
+[debug] 	[NOT REQUIRED] org.scala-js#scalajs-library_2.11;0.6.15!scalajs-library_2.11.jar
+[debug] 	[NOT REQUIRED] org.scala-js#scalajs-test-interface_2.11;0.6.15!scalajs-test-interface_2.11.jar
+[debug] 	[NOT REQUIRED] org.scala-js#scalajs-compiler_2.11.8;0.6.15!scalajs-compiler_2.11.8.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.jar
-[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.jar
-[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-websocket;8.1.16.v20140903!jetty-websocket.jar (171ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.jar
-[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.jar
-[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-server;8.1.16.v20140903!jetty-server.jar (204ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.jar
-[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.jar
-[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-util;8.1.16.v20140903!jetty-util.jar (186ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.jar
-[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.jar
-[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-io;8.1.16.v20140903!jetty-io.jar (140ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.jar
-[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.jar
-[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.jar (138ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar
-[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar
-[info] 	[SUCCESSFUL ] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(orbit) (169ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.jar
-[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.jar
-[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar (124ms)
-[debug] :: resolution report :: resolve 2807ms :: artifacts dl 3878ms
-[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT compile produced in C:\Users\antoi\Documents\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-compile.xml
-[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT runtime produced in C:\Users\antoi\Documents\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-runtime.xml
-[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT test produced in C:\Users\antoi\Documents\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-test.xml
-[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT provided produced in C:\Users\antoi\Documents\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-provided.xml
-[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT optional produced in C:\Users\antoi\Documents\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-optional.xml
-[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT compile-internal produced in C:\Users\antoi\Documents\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-compile-internal.xml
-[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT runtime-internal produced in C:\Users\antoi\Documents\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-runtime-internal.xml
-[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT test-internal produced in C:\Users\antoi\Documents\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-test-internal.xml
-[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT plugin produced in C:\Users\antoi\Documents\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-plugin.xml
-[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT sources produced in C:\Users\antoi\Documents\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-sources.xml
-[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT docs produced in C:\Users\antoi\Documents\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-docs.xml
-[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT pom produced in C:\Users\antoi\Documents\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-pom.xml
-[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT scala-tool produced in C:\Users\antoi\Documents\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-scala-tool.xml
-[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT phantom-js-jetty produced in C:\Users\antoi\Documents\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-phantom-js-jetty.xml
-[debug] 	resolve done (2807ms resolve - 3878ms download)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-websocket;8.1.16.v20140903!jetty-websocket.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;8.1.16.v20140903!jetty-server.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;8.1.16.v20140903!jetty-util.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.16.v20140903!jetty-io.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(orbit)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar
+[debug] :: resolution report :: resolve 152ms :: artifacts dl 14ms
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT compile produced in D:\Cours HEIG 2016-2017 S2\Scala\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-compile.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT runtime produced in D:\Cours HEIG 2016-2017 S2\Scala\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-runtime.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT test produced in D:\Cours HEIG 2016-2017 S2\Scala\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-test.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT provided produced in D:\Cours HEIG 2016-2017 S2\Scala\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-provided.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT optional produced in D:\Cours HEIG 2016-2017 S2\Scala\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-optional.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT compile-internal produced in D:\Cours HEIG 2016-2017 S2\Scala\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-compile-internal.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT runtime-internal produced in D:\Cours HEIG 2016-2017 S2\Scala\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-runtime-internal.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT test-internal produced in D:\Cours HEIG 2016-2017 S2\Scala\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-test-internal.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT plugin produced in D:\Cours HEIG 2016-2017 S2\Scala\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-plugin.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT sources produced in D:\Cours HEIG 2016-2017 S2\Scala\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-sources.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT docs produced in D:\Cours HEIG 2016-2017 S2\Scala\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-docs.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT pom produced in D:\Cours HEIG 2016-2017 S2\Scala\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-pom.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT scala-tool produced in D:\Cours HEIG 2016-2017 S2\Scala\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-scala-tool.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT phantom-js-jetty produced in D:\Cours HEIG 2016-2017 S2\Scala\scala_project\shared\.js\target\resolution-cache\reports\shared-shared_sjs0.6_2.11-phantom-js-jetty.xml
+[debug] 	resolve done (152ms resolve - 14ms download)
 [info] Done updating.

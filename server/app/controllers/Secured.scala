@@ -22,7 +22,7 @@ object Secured {
       * @param ctx The context.
       * @return The username.
       */
-    def getUsername(request: Request[Any]) = request.session.get("email").orNull
+    def getUsername(request: Request[Any]) = request.session.get("username").orNull
 
     /**
      * Instruct authenticator to automatically redirect to login page if unauthorized.
@@ -39,7 +39,7 @@ object Secured {
      * @return True if user is logged in.
      */
     def isLoggedIn(request: Request[Any]) : Boolean = {
-        getUsername(request) != null
+        getUsername(request) != null && UserDB.isUser(getUsername(request))
     }
 
     /**

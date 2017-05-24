@@ -1,16 +1,16 @@
-[info] Fast optimizing C:\Users\antoi\Documents\scala_project\client\target\scala-2.11\client-fastopt.js
-[debug] Linker: Compute reachability: 194760 us
-[debug] Linker: Assemble LinkedClasses: 748212 us
-[debug] Basic Linking: 964421 us
+[info] Fast optimizing D:\Cours HEIG 2016-2017 S2\Scala\scala_project\client\target\scala-2.11\client-fastopt.js
+[debug] Linker: Compute reachability: 109687 us
+[debug] Linker: Assemble LinkedClasses: 258174 us
+[debug] Basic Linking: 379780 us
 [debug] Inc. optimizer: Batch mode: true
-[debug] Inc. optimizer: Incremental part: 263339 us
+[debug] Inc. optimizer: Incremental part: 120385 us
 [debug] Inc. optimizer: Optimizing 805 methods.
-[debug] Inc. optimizer: Optimizer part: 598998 us
-[debug] Inc. optimizer: 872792 us
-[debug] Refiner: Compute reachability: 33062 us
-[debug] Refiner: Assemble LinkedClasses: 7489 us
-[debug] Refiner: 43672 us
+[debug] Inc. optimizer: Optimizer part: 265789 us
+[debug] Inc. optimizer: 399218 us
+[debug] Refiner: Compute reachability: 30821 us
+[debug] Refiner: Assemble LinkedClasses: 8254 us
+[debug] Refiner: 40679 us
 [debug] Emitter: Class tree cache stats: reused: 36 -- invalidated: 42
 [debug] Emitter: Method tree cache stats: resued: 0 -- invalidated: 105
-[debug] Emitter (write output): 263110 us
-[debug] Global IR cache stats: reused: 0 -- invalidated: 5 -- trees read: 256
+[debug] Emitter (write output): 201228 us
+[debug] Global IR cache stats: reused: 0 -- invalidated: 17 -- trees read: 256

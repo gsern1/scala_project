@@ -13,7 +13,8 @@ lazy val server = (project in file("server")).settings(
     "com.vmunier" %% "scalajs-scripts" % "latest.release",
     specs2 % Test,
     "org.webjars" % "bootstrap" % "3.3.5",
-    "org.webjars" % "font-awesome" % "4.3.0-2"
+    "org.webjars" % "font-awesome" % "4.3.0-2",
+    "com.typesafe.slick" %% "slick" % "latest.release"
   ),
   EclipseKeys.preTasks := Seq(compile in Compile)
 ).enablePlugins(PlayScala).

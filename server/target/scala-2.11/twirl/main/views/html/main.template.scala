@@ -41,28 +41,30 @@ Seq[Any](format.raw/*1.65*/("""
                             <!--  Display three horizontal lines when navbar collapsed. -->
                         <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/">play-example-login</a>
+                    <a class="navbar-brand" href="/">PlayVent</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-left">
-                        <li><a href=""""),_display_(/*24.39*/routes/*24.45*/.Application.profile()),format.raw/*24.67*/("""">Profile</a></li>
-                    </ul>
+                    """),_display_(/*24.22*/if(isLoggedIn)/*24.36*/ {_display_(Seq[Any](format.raw/*24.38*/("""
+                        """),format.raw/*25.25*/("""<li><a href=""""),_display_(/*25.39*/routes/*25.45*/.Application.profile()),format.raw/*25.67*/("""">Profile</a></li>
+                    """)))}),format.raw/*26.22*/("""
+                    """),format.raw/*27.21*/("""</ul>
                     <ul class="nav navbar-nav navbar-right">
-                    """),_display_(/*27.22*/if(isLoggedIn)/*27.36*/ {_display_(Seq[Any](format.raw/*27.38*/("""
-                        """),format.raw/*28.25*/("""<li><p class="navbar-text">"""),_display_(/*28.53*/user/*28.57*/.email),format.raw/*28.63*/("""</p></li>
-                        <li><a href=""""),_display_(/*29.39*/routes/*29.45*/.Application.logout()),format.raw/*29.66*/("""">Logout</a></li>
-                    """)))}/*30.23*/else/*30.28*/{_display_(Seq[Any](format.raw/*30.29*/("""
-                        """),format.raw/*31.25*/("""<li><a href=""""),_display_(/*31.39*/routes/*31.45*/.Application.login()),format.raw/*31.65*/("""">Login</a></li>
-                    """)))}),format.raw/*32.22*/("""
-
-                    """),format.raw/*34.21*/("""</ul>
+                    """),_display_(/*29.22*/if(isLoggedIn)/*29.36*/ {_display_(Seq[Any](format.raw/*29.38*/("""
+                        """),format.raw/*30.25*/("""<li><p class="navbar-text">"""),_display_(/*30.53*/user/*30.57*/.username),format.raw/*30.66*/("""</p></li>
+                        <li><a href=""""),_display_(/*31.39*/routes/*31.45*/.Application.logout()),format.raw/*31.66*/("""">Logout</a></li>
+                    """)))}/*32.23*/else/*32.28*/{_display_(Seq[Any](format.raw/*32.29*/("""
+                        """),format.raw/*33.25*/("""<li><a href=""""),_display_(/*33.39*/routes/*33.45*/.Application.login()),format.raw/*33.65*/("""">Login</a></li>
+                        <li><a href=""""),_display_(/*34.39*/routes/*34.45*/.Application.register()),format.raw/*34.68*/("""">Register</a></li>
+                    """)))}),format.raw/*35.22*/("""
+                    """),format.raw/*36.21*/("""</ul>
                 </div>
             </div>
         </div>
         <div class="container">
-            """),_display_(/*39.14*/content),format.raw/*39.21*/("""
-            """),_display_(/*40.14*/scalajs/*40.21*/.html.scripts("client", routes.Assets.versioned(_).toString, name => getClass.getResource(s"/public/$name") != null)),format.raw/*40.137*/("""
-        """),format.raw/*41.9*/("""</div>
+            """),_display_(/*41.14*/content),format.raw/*41.21*/("""
+            """),_display_(/*42.14*/scalajs/*42.21*/.html.scripts("client", routes.Assets.versioned(_).toString, name => getClass.getResource(s"/public/$name") != null)),format.raw/*42.137*/("""
+        """),format.raw/*43.9*/("""</div>
     </body>
 </html>
 """))
@@ -85,11 +87,11 @@ Seq[Any](format.raw/*1.65*/("""
 object main extends main_Scope0.main
               /*
                   -- GENERATED --
-                  DATE: Tue May 23 22:19:06 CEST 2017
-                  SOURCE: C:/Users/antoi/Documents/scala_project/server/app/views/main.scala.html
-                  HASH: e03342cd5ff032835ad7fcd577387eb8c047101b
-                  MATRIX: 543->1|701->64|729->66|806->117|831->122|919->184|933->190|995->231|1082->292|1096->298|1156->337|1224->378|1239->384|1312->436|2134->1231|2149->1237|2192->1259|2346->1386|2369->1400|2409->1402|2462->1427|2517->1455|2530->1459|2557->1465|2632->1513|2647->1519|2689->1540|2747->1580|2760->1585|2799->1586|2852->1611|2893->1625|2908->1631|2949->1651|3018->1689|3068->1711|3203->1819|3231->1826|3272->1840|3288->1847|3426->1963|3462->1972
-                  LINES: 20->1|25->1|27->3|31->7|31->7|32->8|32->8|32->8|33->9|33->9|33->9|34->10|34->10|34->10|48->24|48->24|48->24|51->27|51->27|51->27|52->28|52->28|52->28|52->28|53->29|53->29|53->29|54->30|54->30|54->30|55->31|55->31|55->31|55->31|56->32|58->34|63->39|63->39|64->40|64->40|64->40|65->41
+                  DATE: Thu May 25 00:41:23 CEST 2017
+                  SOURCE: D:/Cours HEIG 2016-2017 S2/Scala/scala_project/server/app/views/main.scala.html
+                  HASH: 8e318ac1982f4d29ef892762617d85e59c5fce44
+                  MATRIX: 543->1|701->64|731->68|812->123|837->128|926->191|940->197|1002->238|1090->300|1104->306|1164->345|1233->387|1248->393|1321->445|2130->1227|2153->1241|2193->1243|2247->1269|2288->1283|2303->1289|2346->1311|2418->1352|2468->1374|2585->1464|2608->1478|2648->1480|2702->1506|2757->1534|2770->1538|2800->1547|2876->1596|2891->1602|2933->1623|2992->1664|3005->1669|3044->1670|3098->1696|3139->1710|3154->1716|3195->1736|3278->1792|3293->1798|3337->1821|3410->1863|3460->1885|3600->1998|3628->2005|3670->2020|3686->2027|3824->2143|3861->2153
+                  LINES: 20->1|25->1|27->3|31->7|31->7|32->8|32->8|32->8|33->9|33->9|33->9|34->10|34->10|34->10|48->24|48->24|48->24|49->25|49->25|49->25|49->25|50->26|51->27|53->29|53->29|53->29|54->30|54->30|54->30|54->30|55->31|55->31|55->31|56->32|56->32|56->32|57->33|57->33|57->33|57->33|58->34|58->34|58->34|59->35|60->36|65->41|65->41|66->42|66->42|66->42|67->43
                   -- GENERATED --
               */
           

@@ -9,7 +9,7 @@
 		extra-sbtVersion="0.13"
 		conf="provided"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170523193018"/>
+		date="20170524222602"/>
 	<dependencies>
 		<module organisation="org.scala-sbt" name="sbt">
 			<revision name="0.13.13" status="release" pubdate="20161028130837" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
@@ -518,9 +518,9 @@
 			</revision>
 		</module>
 		<module organisation="jline" name="jline">
-			<revision name="2.13" status="release" pubdate="20150810183856" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+			<revision name="2.13" status="release" pubdate="20150811123741" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
 				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
-				<metadata-artifact status="no" details="" size="4650" time="0" location="C:\Users\antoi\.ivy2\cache\jline\jline\ivy-2.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jline/jline/2.13/jline-2.13.pom"/>
+				<metadata-artifact status="no" details="" size="4493" time="0" location="C:\Users\antoi\.ivy2\cache\jline\jline\ivy-2.13.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/jline/jline/2.13/jline-2.13.pom"/>
 				<caller organisation="org.scala-sbt" name="logging" conf="compile" rev="2.13" rev-constraint-default="2.13" rev-constraint-dynamic="2.13" callerrev="0.13.13"/>
 				<caller organisation="org.scala-sbt" name="completion" conf="compile" rev="2.13" rev-constraint-default="2.13" rev-constraint-dynamic="2.13" callerrev="0.13.13"/>
 				<artifacts>
@@ -531,7 +531,7 @@
 			</revision>
 		</module>
 		<module organisation="org.fusesource.jansi" name="jansi">
-			<revision name="1.11" status="release" pubdate="20130513152123" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+			<revision name="1.11" status="release" pubdate="20130513152123" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="14">
 				<metadata-artifact status="no" details="" size="3852" time="0" location="C:\Users\antoi\.ivy2\cache\org.fusesource.jansi\jansi\ivy-1.11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/fusesource/jansi/jansi/1.11/jansi-1.11.pom"/>
 				<caller organisation="jline" name="jline" conf="default, compile, runtime, master" rev="1.11" rev-constraint-default="1.11" rev-constraint-dynamic="1.11" callerrev="2.13"/>
 				<artifacts>

@@ -7,28 +7,28 @@
 		revision="0.1-SNAPSHOT"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty"
-		date="20170523185314"/>
+		date="20170524221852"/>
 	<dependencies>
 		<module organisation="org.scala-js" name="scalajs-test-interface_2.11">
-			<revision name="0.6.15" status="release" pubdate="20170320112555" resolver="public" artresolver="public" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-test-interface/0.6.15/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+			<revision name="0.6.15" status="release" pubdate="20170320112555" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-test-interface/0.6.15/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
 				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
-				<metadata-artifact status="successful" details="" size="2224" time="110" location="C:\Users\antoi\.ivy2\cache\org.scala-js\scalajs-test-interface_2.11\ivy-0.6.15.xml" searched="true" original-local-location="C:\Users\antoi\.ivy2\cache\org.scala-js\scalajs-test-interface_2.11\ivy-0.6.15.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.11/0.6.15/scalajs-test-interface_2.11-0.6.15.pom"/>
+				<metadata-artifact status="no" details="" size="3068" time="0" location="C:\Users\antoi\.ivy2\cache\org.scala-js\scalajs-test-interface_2.11\ivy-0.6.15.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.11/0.6.15/scalajs-test-interface_2.11-0.6.15.pom"/>
 				<caller organisation="shared" name="shared_sjs0.6_2.11" conf="test, compile, runtime" rev="0.6.15" rev-constraint-default="0.6.15" rev-constraint-dynamic="0.6.15" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="scalajs-test-interface_2.11" type="jar" ext="jar" status="successful" details="" size="331991" time="195" location="C:\Users\antoi\.ivy2\cache\org.scala-js\scalajs-test-interface_2.11\jars\scalajs-test-interface_2.11-0.6.15.jar">
+					<artifact name="scalajs-test-interface_2.11" type="jar" ext="jar" status="no" details="" size="331991" time="0" location="C:\Users\antoi\.ivy2\cache\org.scala-js\scalajs-test-interface_2.11\jars\scalajs-test-interface_2.11-0.6.15.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.11/0.6.15/scalajs-test-interface_2.11-0.6.15.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-js" name="scalajs-library_2.11">
-			<revision name="0.6.15" status="release" pubdate="20170320112258" resolver="public" artresolver="public" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-library/0.6.15/" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+			<revision name="0.6.15" status="release" pubdate="20170320112258" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-library/0.6.15/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
 				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
-				<metadata-artifact status="successful" details="" size="2227" time="115" location="C:\Users\antoi\.ivy2\cache\org.scala-js\scalajs-library_2.11\ivy-0.6.15.xml" searched="true" original-local-location="C:\Users\antoi\.ivy2\cache\org.scala-js\scalajs-library_2.11\ivy-0.6.15.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.15/scalajs-library_2.11-0.6.15.pom"/>
+				<metadata-artifact status="no" details="" size="3032" time="0" location="C:\Users\antoi\.ivy2\cache\org.scala-js\scalajs-library_2.11\ivy-0.6.15.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.15/scalajs-library_2.11-0.6.15.pom"/>
 				<caller organisation="org.scala-js" name="scalajs-test-interface_2.11" conf="default, compile, runtime, master" rev="0.6.15" rev-constraint-default="0.6.15" rev-constraint-dynamic="0.6.15" callerrev="0.6.15"/>
 				<caller organisation="shared" name="shared_sjs0.6_2.11" conf="test, compile, runtime" rev="0.6.15" rev-constraint-default="0.6.15" rev-constraint-dynamic="0.6.15" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="scalajs-library_2.11" type="jar" ext="jar" status="successful" details="" size="6837269" time="1944" location="C:\Users\antoi\.ivy2\cache\org.scala-js\scalajs-library_2.11\jars\scalajs-library_2.11-0.6.15.jar">
+					<artifact name="scalajs-library_2.11" type="jar" ext="jar" status="no" details="" size="6837269" time="0" location="C:\Users\antoi\.ivy2\cache\org.scala-js\scalajs-library_2.11\jars\scalajs-library_2.11-0.6.15.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.15/scalajs-library_2.11-0.6.15.jar"/>
 					</artifact>
 				</artifacts>

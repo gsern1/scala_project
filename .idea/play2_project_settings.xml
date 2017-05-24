@@ -13,7 +13,7 @@
         <entry key="server">
           <value>
             <ProjectSettingsEntry>
-              <option name="confDir" value="C:\Users\antoi\Documents\scala_project\server\app" />
+              <option name="confDir" value="D:\Cours HEIG 2016-2017 S2\Scala\scala_project\server\app" />
               <option name="templateImports">
                 <list>
                   <option value="models._" />
@@ -30,7 +30,7 @@
                   <option value="controllers.Assets.Asset" />
                 </list>
               </option>
-              <option name="uri" value="/C:/Users/antoi/Documents/scala_project/server" />
+              <option name="uri" value="/D:/Cours%20HEIG%202016-2017%20S2/Scala/scala_project/server" />
             </ProjectSettingsEntry>
           </value>
         </entry>
