@@ -6,8 +6,17 @@ import play.api.mvc._
 import play.mvc.Controller._
 import shared.SharedMessages
 import play.api.mvc.Results._
+import javax.inject.Inject
 
-class Application extends Controller {
+import play.api.Play
+import play.api.db.slick.DatabaseConfigProvider
+import slick.driver.JdbcProfile
+
+
+class Application @Inject()(dbConfigProvider: DatabaseConfigProvider) extends Controller {
+
+  val dbConfig = dbConfigProvider.get[JdbcProfile]
+  import dbConfig.driver.api._
 
   def index = Action { request =>
     Ok(views.html.index(SharedMessages.itWorks, Secured.isLoggedIn(request), Secured.getUser(request)))
@@ -15,6 +24,7 @@ class Application extends Controller {
 
   def login = Action { request =>
     Ok(views.html.login(Secured.isLoggedIn(request), Secured.getUser(request)))
+
   }
 
   def postLogin() = Action { request =>

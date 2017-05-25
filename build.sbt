@@ -14,8 +14,11 @@ lazy val server = (project in file("server")).settings(
     specs2 % Test,
     "org.webjars" % "bootstrap" % "3.3.5",
     "org.webjars" % "font-awesome" % "4.3.0-2",
-    "com.typesafe.slick" %% "slick" % "latest.release"
-  ),
+    "com.typesafe.play" %% "play-slick" % "2.0.0",
+    "com.typesafe.play" %% "play-slick-evolutions" % "2.0.0",
+    "com.h2database" % "h2" % "1.4.193" // H2 version
+
+  ) ,
   EclipseKeys.preTasks := Seq(compile in Compile)
 ).enablePlugins(PlayScala).
   dependsOn(sharedJvm)
