@@ -4,7 +4,7 @@
 		module="server_2.11"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170528014439"
+		publication="20170528015035"
 	>
 		<description>
 		server
@@ -53,6 +53,8 @@
 		<dependency org="com.typesafe.play" name="play-specs2_2.11" rev="2.5.13" conf="test->default(compile)"/>
 		<dependency org="org.webjars" name="bootstrap" rev="3.3.5" conf="compile->default(compile)"/>
 		<dependency org="org.webjars" name="font-awesome" rev="4.3.0-2" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.slick" name="slick_2.11" rev="latest.release" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-slick_2.11" rev="2.0.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-slick-evolutions_2.11" rev="2.0.0" conf="compile->default(compile)"/>
+		<dependency org="com.h2database" name="h2" rev="1.4.193" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
