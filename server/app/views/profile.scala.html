@@ -1,8 +1,8 @@
 @(isLoggedIn: Boolean, user: User)
 
-  @main("Register", isLoggedIn, user) {
+  @main("Profile", isLoggedIn, user) {
     <div class="row">
-      <div class="col-sm-6 col-md-4 col-md-offset-4">
+      <div class="col-md-12">
         <h2>My profile</h2>
         <p>Username: @user.username</p>
       </div>

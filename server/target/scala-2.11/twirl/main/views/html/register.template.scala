@@ -52,13 +52,21 @@ Seq[Any](format.raw/*1.55*/("""
             </div>
           </div>
           <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon">
+                <i class="glyphicon glyphicon-lock"></i>
+              </span>
+              <input class="form-control" placeholder="Server password" name="server_password" type="password" value="">
+            </div>
+          </div>
+          <div class="form-group">
             <input type="submit" class="btn btn-lg btn-primary btn-block" value="Sign up">
           </div>
         </form>
         <p>Already have an account! <a href="/login"> Sign In Here </a></p>
       </div>
     </div>
-  """)))}),format.raw/*37.4*/("""
+  """)))}),format.raw/*45.4*/("""
 """))
       }
     }
@@ -79,11 +87,11 @@ Seq[Any](format.raw/*1.55*/("""
 object register extends register_Scope0.register
               /*
                   -- GENERATED --
-                  DATE: Thu May 25 00:48:16 CEST 2017
+                  DATE: Sun May 28 01:09:40 CEST 2017
                   SOURCE: D:/Cours HEIG 2016-2017 S2/Scala/scala_project/server/app/views/register.scala.html
-                  HASH: 85e76802392eac063760c2e989cf96e74f5344f8
-                  MATRIX: 546->1|694->54|726->61|768->95|807->97|839->103|1029->267|1055->285|1094->287|1133->299|1231->370|1257->375|1297->387|1345->404|1382->414|2431->1433
-                  LINES: 20->1|25->1|27->3|27->3|27->3|28->4|32->8|32->8|32->8|33->9|34->10|34->10|35->11|36->12|37->13|61->37
+                  HASH: 6f2c3d7a1b515444c8f1ff1f96b6b9faac5ced90
+                  MATRIX: 546->1|694->54|726->61|768->95|807->97|839->103|1029->267|1055->285|1094->287|1133->299|1231->370|1257->375|1297->387|1345->404|1382->414|2795->1797
+                  LINES: 20->1|25->1|27->3|27->3|27->3|28->4|32->8|32->8|32->8|33->9|34->10|34->10|35->11|36->12|37->13|69->45
                   -- GENERATED --
               */
           

@@ -79,7 +79,7 @@ Seq[Any](format.raw/*1.55*/("""
 object login extends login_Scope0.login
               /*
                   -- GENERATED --
-                  DATE: Thu May 25 00:35:54 CEST 2017
+                  DATE: Sun May 28 01:09:40 CEST 2017
                   SOURCE: D:/Cours HEIG 2016-2017 S2/Scala/scala_project/server/app/views/login.scala.html
                   HASH: 4b78512a7c5fe2dadde28971c46fc68fda369584
                   MATRIX: 540->1|688->54|718->59|757->90|796->92|826->96|1004->249|1030->267|1069->269|1105->279|1201->348|1227->353|1264->363|1309->378|1344->386|2343->1355

@@ -13,6 +13,7 @@
         <entry key="server">
           <value>
             <ProjectSettingsEntry>
+              <option name="sourceDir" value="D:\Cours HEIG 2016-2017 S2\Scala\scala_project\server\app" />
               <option name="confDir" value="D:\Cours HEIG 2016-2017 S2\Scala\scala_project\server\app" />
               <option name="templateImports">
                 <list>

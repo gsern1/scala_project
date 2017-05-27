@@ -24,7 +24,7 @@ class index extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Forma
 
 Seq[Any](format.raw/*1.52*/("""
 
-"""),_display_(/*3.2*/main("Index", isLoggedIn, user)/*3.33*/ {_display_(Seq[Any](format.raw/*3.35*/("""
+"""),_display_(/*3.2*/main("Home", isLoggedIn, user)/*3.32*/ {_display_(Seq[Any](format.raw/*3.34*/("""
 """),format.raw/*4.1*/("""<h2>Hi welcome whatsupp</h2>
 <ul>
   <li>Play shouts out: <em>"""),_display_(/*6.29*/message),format.raw/*6.36*/("""</em></li>
@@ -51,10 +51,10 @@ Seq[Any](format.raw/*1.52*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Thu May 25 00:35:54 CEST 2017
+                  DATE: Sun May 28 00:48:23 CEST 2017
                   SOURCE: D:/Cours HEIG 2016-2017 S2/Scala/scala_project/server/app/views/index.scala.html
-                  HASH: 22c57d6d87f67b3fc60fbe51c93bf99078050a34
-                  MATRIX: 540->1|685->51|715->56|754->87|793->89|821->91|911->155|938->162|1051->246
+                  HASH: 62f45fca85d8310fff22c459d150494ab69ec0d5
+                  MATRIX: 540->1|685->51|715->56|753->86|792->88|820->90|910->154|937->161|1050->245
                   LINES: 20->1|25->1|27->3|27->3|27->3|28->4|30->6|30->6|33->9
                   -- GENERATED --
               */

@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:D:/Cours HEIG 2016-2017 S2/Scala/scala_project/server/conf/routes
-// @DATE:Wed May 24 22:26:31 CEST 2017
+// @DATE:Sun May 28 00:31:28 CEST 2017
 
 
 package router {
